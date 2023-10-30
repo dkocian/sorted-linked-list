@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: webdevops/php-nginx:8.2
+    container_name: sorted-list
+    working_dir: /app
+    volumes:
+      - ./:/app
